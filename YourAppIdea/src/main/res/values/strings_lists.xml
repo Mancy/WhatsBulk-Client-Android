@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lists_title">Arrivals to Paris</string>
+    <string name="lists_altitude">Alt: %1$sm</string>
+    <string name="lists_speed">Speed: %1$skm/h</string>
+    <string name="lists_eta">Eta: %1$s</string>
+    <string name="lists_rest_url">http://whatsbulk.apiary.io/api/key/lists</string>
+
+    <string-array name="lists_mode">
+        <item>Single</item>
+        <item>Bulk</item>
+    </string-array>
+
+</resources>

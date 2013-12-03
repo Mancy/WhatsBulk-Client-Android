@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/lists_menuMode"
+        yourapp:showAsAction="always"
+        yourapp:actionLayout="@layout/lists_mode"/>
+    
+    <item android:id="@+id/lists_menuRefresh"
+          android:icon="@drawable/ic_menu_refresh"
+          android:title="@string/menuitem_refresh"
+          android:alphabeticShortcut="r"
+          android:orderInCategory="1"
+          yourapp:showAsAction="always"/>
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left|center"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        android:text="list_name"
+        android:textIsSelectable="true"
+        android:textSize="18dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/list_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/list_name"
+        android:gravity="right|center_vertical"
+        android:text="list_count"
+        android:textIsSelectable="true"
+        android:textSize="16dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/list_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_name"
+        android:layout_marginLeft="10px"
+        android:gravity="center_vertical"
+        android:text="id"
+        android:textIsSelectable="true"
+        android:textSize="14dp">
+    </TextView>
+
+
+</RelativeLayout>
