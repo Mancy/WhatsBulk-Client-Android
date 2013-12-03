@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 YourAppIdea
 ===========
 
@@ -67,3 +68,9 @@ What you can find inside
 android-app
 ===========
 >>>>>>> 5636644c4d95b83120338e10986211cf67f80744
+=======
+WhatsBulk-Client-Android
+========================
+
+Whatsbulk.com android client application
+>>>>>>> a984d0f6f596b4530fc762f04f8ec60aa5793e00
